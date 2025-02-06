@@ -1,5 +1,3 @@
-# Developpement-dune-architecture-MVC-moderne-avec-PHP-Eloquent
-
 # Développement d'une architecture MVC moderne avec PHP et Eloquent
 
 ## 📅 **Contexte du Projet**
