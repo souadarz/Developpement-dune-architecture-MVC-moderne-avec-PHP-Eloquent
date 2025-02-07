@@ -1,10 +1,10 @@
 <?php
 namespace App\core;
 class Controller{
-    public function render($view, $data = [])
+
+    public function getView($view, $data= [])
     {
-        
-        extract($data);
-        include __DIR__ . '/../views/' .$view. '.php';
+    
+        return View::render($view, $data);
     }
 }

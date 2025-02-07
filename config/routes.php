@@ -7,7 +7,7 @@ $router = new Router();
 // // Routes simples
 
 // $router->get('', [HomeController::class, 'index']);
-$router->get('test', [AuthController::class, 'test']);
+$router->get('Auth/login', [AuthController::class, 'showLogin']);
 $router->get('', function() {
     echo "Bienvenue sur la page d'accueil";
 });

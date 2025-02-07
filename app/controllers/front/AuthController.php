@@ -5,7 +5,10 @@ use App\core\Controller;
 
 class AuthController extends Controller{
 
-    public function test(){
-        echo "this is a test";
+    public function showLogin(){
+        $this->getView('Auth/login');
+    }
+
+    public function showRegiter(){
     }
 }
