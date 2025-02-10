@@ -4,7 +4,6 @@ class Controller{
 
     public function getView($view, $data= [])
     {
-    
         return View::render($view, $data);
     }
 }

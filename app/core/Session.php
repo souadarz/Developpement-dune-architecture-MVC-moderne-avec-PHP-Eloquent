@@ -10,22 +10,22 @@ class Session {
         }
     }
 
-    public function set($key, $value)
+    public static function set($key, $value)
     {
         $_SESSION[$key] = $value;
     }
 
-    public function get($key)
+    public static function get($key)
     {
         return $_SESSION[$key] ?? null;
     }
 
-    public function remove($key)
+    public static function remove($key)
     {
         unset($_SESSION[$key]);
     }
 
-    public function destroy()
+    public static function destroy()
     {
         session_destroy();
         $_SESSION = [];
